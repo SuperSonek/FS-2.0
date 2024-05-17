@@ -1,0 +1,35 @@
+.signals_page {
+    display: flex;
+    padding-top: 20px;
+}
+.signals_page_left {
+    width: calc(570% - 10px);
+    float: left;
+    margin-right: 10px;
+}
+.signals_page_right {
+    width: calc(30% - 10px);
+    float: right;
+    margin-left: 10px
+}
+
+.signals_list {
+    overflow-y: auto;
+    height: calc(100vh - 90px);
+    
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    column-gap: 20px;
+    
+    
+    
+}
+.signal {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    min-height: 150px;
+
+}
+
+
