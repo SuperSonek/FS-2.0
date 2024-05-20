@@ -23,7 +23,7 @@ function PositionForm() {
 
                 <div>
                     <label>coin:</label>
-                    <input type="text" name="coin" value="" placeholder="BTC"/>
+                    <input type="" name=""/>
                     <label>USDT</label>
                 </div>
                 
@@ -65,12 +65,13 @@ function PositionForm() {
                     <label>take profit:</label>
                     <input TYPE="text" NAME="take_profit" VALUE="" placeholder="1,234.56"/>
                 </div>
+                <input />
             </div>
     )
 }
 
 
-function IphoneScreen() {
+const IphoneScreen = () => {
     return (
         <div class="iphone_screen" id="screenshot">
                 <div class="top_bar">

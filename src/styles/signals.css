@@ -17,7 +17,7 @@
     height: calc(100vh - 90px);
     
     display: grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(4, 23%);
     column-gap: 20px;
     
     
@@ -25,12 +25,32 @@
 }
 .signal {
     margin-bottom: 10px;
-    padding: 20px;
-    min-height: 150px;
-    background-color: #161616;
-    color: #fff;
+    color: #161616;
     font-weight: 700;
+    border: 1px solid #161616;
 
 }
+.signal_header {
+    background-color: #161616;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+}
+.signal_body {
+    padding: 20px;
+}
+.signal_body span {
+    margin-bottom: 5px;
+    display: block;
+}
+.signal_footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding: 5px 20px 5px 20px;
 
+}
+.signal_footer button {
+    float: right;
+    margin-right: 10px;
+}
 
