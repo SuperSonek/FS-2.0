@@ -13,6 +13,7 @@ import "./styles/deposits.css"
 import "./styles/dashboard.css"
 import "./styles/screenshots.css"
 import "./styles/login.css";
+import "./styles/iphone_position.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

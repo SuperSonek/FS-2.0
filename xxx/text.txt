@@ -1,6 +1,0 @@
-<RouterProvider router={router} />
-
-const router = createBrowserRouter([
-    {path: "/position", element: <Position /> },
-]);
-     
