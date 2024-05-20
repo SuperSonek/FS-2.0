@@ -1,6 +1,6 @@
 export const signals = [
     {
-        coin: "DOGE",
+        coin: "FIRST",
         price: "555",
         status: "open",
     },
@@ -41,6 +41,26 @@ export const signals = [
     },
     {
         coin: "SUI",
+        price: "33,1111",
+        status: "close",
+    },
+    {
+        coin: "MEME",
+        price: "33,1111",
+        status: "close",
+    },
+    {
+        coin: "SUI",
+        price: "33,1111",
+        status: "close",
+    },
+    {
+        coin: "SUI",
+        price: "33,1111",
+        status: "close",
+    },
+    {
+        coin: "LAST",
         price: "33,1111",
         status: "close",
     }

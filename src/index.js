@@ -11,7 +11,9 @@ import './styles/ss_form.css';
 import "./styles/admin_panel.css"
 import "./styles/deposits.css"
 import "./styles/dashboard.css"
-     
+import "./styles/screenshots.css"
+import "./styles/login.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

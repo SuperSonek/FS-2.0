@@ -1,7 +1,8 @@
 import '../App.css';
 import { useState } from "react"
 import { Link } from 'react-router-dom';
-import CreateNewAccount from "./CreateNewAccount"
+import CreateNewUser from "./CreateNewUser"
+import AllUsersList from "./AllUsersList";
 
 export default function AdminPanel() {
     const [currentSection, setCurrentSection] = useState("statistics")
@@ -13,22 +14,22 @@ export default function AdminPanel() {
     
     return (
         <>
-        <h1>Админка</h1>
-        
-        <div className="page_content admin_panel">
-            <div className="admin_panel_menu">
-                <ul>
-                    <li><button onClick={handleClick("all-accounts")}>Все аккаунты</button></li>
-                    <li><button onClick={handleClick("create-new-account")}>Создать новый аккаунт</button></li>
-                </ul>  
-            </div>
+            <h1>Adminka</h1>
 
-            <div className="admin_panel_content">
-                {currentSection == "create-new-account" && 
-                    <CreateNewAccount />
-                }
+            <div className="page_content admin_panel">
+                <div className="admin_panel_menu">
+                    <Link to="users">All users list</Link>
+                </div>
+
+                <div className="admin_panel_content">
+                    {currentSection == "create-new-user" && 
+                        <CreateNewUser />
+                    }
+                    {currentSection == "all-users" &&
+                        <AllUsersList />
+                    }
+                </div>
             </div>
-        </div>
         </>
     );
 }

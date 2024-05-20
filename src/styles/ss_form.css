@@ -1,20 +1,20 @@
 .form_box {
+    width: 500px;
     margin-top: 10px;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 40px;
-    padding-bottom: 50px;
     flex-direction: column;
+    padding: 30px 30px 30px 30px;
     font-family: Arial;
-    background-color: #161616;
     color: #ccd6f6;
     display: flex;
     font-family: "Roboto", sans-serif;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .form_box > div {
+    float: left;
     margin-bottom: 15px;
+    background-color: #161616;
+    padding: 5px 10px 5px 10px;
 }
 
 .form_box input, .form_box select {

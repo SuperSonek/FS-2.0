@@ -1,6 +1,5 @@
 .signals_page {
     display: flex;
-    padding-top: 20px;
 }
 .signals_page_left {
     width: calc(570% - 10px);
@@ -18,7 +17,7 @@
     height: calc(100vh - 90px);
     
     display: grid;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: repeat(3, 30%);
     column-gap: 20px;
     
     
@@ -26,9 +25,11 @@
 }
 .signal {
     margin-bottom: 10px;
-    border: 1px solid black;
     padding: 20px;
     min-height: 150px;
+    background-color: #161616;
+    color: #fff;
+    font-weight: 700;
 
 }
 

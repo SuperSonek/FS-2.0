@@ -85,15 +85,16 @@ export default function Screenshots() {
 
     return (
         <>
-            <h1>Fake Screenshots</h1>
+        <h1>Fake Screenshots</h1>
             <div className="page_content screenshots_page">
-                <br></br>
-
-                <span>Выбери тип скрина: </span>
-                <select onChange={handleSsTypeChange}>
-                    <option value="position">Position</option>
-                    <option value="balance">Balance</option>
-                </select>
+                <div className="screenshots_type_select">
+                    <span>Screen type:</span>
+                    <select onChange={handleSsTypeChange}>
+                        <option value="position">Position</option>
+                        <option value="pnlroi">PnL/ROI</option>
+                        <option value="balance">Balance</option>
+                    </select>
+                </div>
 
                 <div>
                     {ssType == "position" &&

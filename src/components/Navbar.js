@@ -11,25 +11,19 @@ export default function Navbar() {
     
     return (
         <div className="header">
-            <select onChange={handleUserTypeChange}>
-                <option value="admin">Админ</option>
-                <option value="dog">Дог</option>
-            </select>
-        
+            
             <div>
                 <Link className="header_btn" to="/">Home</Link>
                 <Link className="header_btn" to="/signals">Signals</Link>
                 <Link className="header_btn" to="/screenshots">Screenshots</Link>
                 <Link className="header_btn" to="/deposits">Deposits</Link>
                 {userType == "admin" && 
-                    <>
+                    <>  
                         <Link className="header_btn" to="/dashboard">Dashboard</Link>
                         <Link className="header_btn" to="/admin">Adminka</Link>
                     </>
                 }
             </div>
-        
-            <button>Logout</button>
         </div>
     )
 }

@@ -21,9 +21,12 @@ function Signal(props) {
             <span>Price: {props.price}</span>
             <br/>
             <span>Status: {props.status}</span>
-        
+            <br/>
             {(props.status == "open" && props.userType == "admin") &&
                 <button>Close</button>
+            }
+            {props.userType == "admin" &&
+                <button>Delete</button>
             }
         
         </div>

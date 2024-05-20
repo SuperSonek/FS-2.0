@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +15,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     overflow: hidden;
-    height: 100vh;
+    
+    font-family: "Source Code Pro", monospace;
     
 }
 
@@ -33,10 +37,15 @@ a {
 
 h1 {
     text-align: center;
-    background-color: #161616;
-    color: #fff;
+    color: #161616;
     padding: 5px 0 5px 0;
     font-size: 24px;
+    font-family: "Source Code Pro", monospace;
+    border-bottom: 1px solid #161616;
+}
+
+table {
+    border-spacing: 0;
 }
 
 .container {
@@ -52,31 +61,38 @@ h1 {
 
 .header {
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 0;
     height: 100vh;
     width: 200px;
     font-family: Arial;
     display: flex;
     flex-direction: column;
-    padding: 40px 30px 0 30px;
-    background-color: #161616;
+    padding: 40px 0 0 0px;
+    background-color: #fff;
+    font-family: "Source Code Pro", monospace;
+    border-right: 1px solid #161616;
+
     
+}
+.header span {
+    color: gray;
+    font-size: 22px;
 }
 .header_btn {
     font-size: 22px;
     text-align: left;
     width: 100%;
-    font-weight: 900;
+    font-weight: 700;
     float: left;
-    margin-bottom: 20px;
-    color: #fff;
-    padding: 5px 0 5px 0;
-    border-top: 2px solid #161616;
-    border-bottom: 2px solid #161616;
+    color: #161616;
+    padding: 5px 0 5px 5px;
+    border-left: 10px solid;
+    border-color: #fff;
+    margin-bottom: 10px;
 }
 .header_btn:hover {
-    border-color: #fff;
+    border-color: #161616;
     animation-duration: 4s;
 }
 
