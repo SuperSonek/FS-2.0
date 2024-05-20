@@ -6,13 +6,13 @@ function PositionForm() {
     return (
             <div class="form_box">
                 <div>
-                    <label>Time:</label>
+                    <label>time:</label>
                     <input id="input_time" type="text" name="time" value="" placeholder="12:34"/>
                     <button type="button" onclick="setCurrentTime()" class="set_current_time_btn">Set Current Time</button>
                 </div>
                     
                 <div>
-                    <label>Battery:</label>
+                    <label>battery:</label>
                     <select name="battery">
                         <option value='10'>10</option>
                         <option value='50'>50</option>
@@ -22,13 +22,13 @@ function PositionForm() {
                 </div>
 
                 <div>
-                    <label>Coin:</label>
+                    <label>coin:</label>
                     <input type="text" name="coin" value="" placeholder="BTC"/>
                     <label>USDT</label>
                 </div>
                 
                 <div>
-                    <label>Position:</label>
+                    <label>position:</label>
                     <select name="longshort">
                         <option value='Long'>Long</option>
                         <option value='Short'>Short</option>
@@ -36,13 +36,13 @@ function PositionForm() {
                 </div>
 
                 <div>
-                    <label>Leverage:</label>
+                    <label>leverage:</label>
                     <input type="text" name="leverage" value="" placeholder="50"/>
                         <label>.00x</label>
                 </div>
 
                 <div>
-                    <label>Entry price:</label>
+                    <label>entry price:</label>
                     <input 
                         type="text"
                         name="entry_price" 
@@ -52,17 +52,17 @@ function PositionForm() {
                 </div>
                         
                 <div>
-                    <label>Margin:</label>
+                    <label>margin:</label>
                     <input TYPE="text" NAME="margin" VALUE="" placeholder="1,234.56"/>
                 </div>
                         
                 <div>
-                    <label>Liq. price:</label>
+                    <label>liq. price:</label>
                     <input TYPE="text" NAME="liq_price" VALUE="" placeholder="1,234.56"/>
                 </div>
                         
                 <div>
-                    <label>Take Profit:</label>
+                    <label>take profit:</label>
                     <input TYPE="text" NAME="take_profit" VALUE="" placeholder="1,234.56"/>
                 </div>
             </div>

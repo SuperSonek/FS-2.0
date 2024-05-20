@@ -9,11 +9,11 @@
 
 .form_box > div {
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 5px 10px 5px 10px;
 }
 
-.form_box input, .form_box select {
+.form_box input {
     all: unset;
     margin-left: 10px;
     padding: 0 5px 0 5px;
@@ -21,9 +21,12 @@
     border-bottom: 1px solid #161616;
     color: #fff;
 }
+.form box select {
+    font-size: 20px;
+}
 
 .form_box > div > label:nth-child(1) {
-    font-size: 22px;
+    font-size: 18px;
     color: #000;
     font-weight: 400;
 }

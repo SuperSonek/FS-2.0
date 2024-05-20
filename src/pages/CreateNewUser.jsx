@@ -11,7 +11,15 @@ export default function CreateNewUser() {
                 <Link to="/admin/users">{"<- Back"}</Link>
                 
                 <div className="new_user_form">
+                    <label>Имя</label>
                     <input />
+                    <br/>
+        
+                    <label>Пароль</label>
+                    <input />
+                    <br/>
+        
+                    <button>Create</button>
                 </div>
             </div>
         </>

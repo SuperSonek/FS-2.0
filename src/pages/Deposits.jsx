@@ -44,6 +44,12 @@ export default function Deposits() {
                     </>
                 }
             </div>
+            {userType == "dog" &&
+                <div>
+                    <span>Новый деп:</span>
+                    <input />
+                </div>
+            }
             <table className="deposits_table">
                 <thead>
                     <tr>
