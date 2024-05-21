@@ -5,6 +5,7 @@
     padding: 30px 30px 30px 30px;
     display: flex;
     align-items: flex-start;
+    background-color: #161616;
 }
 
 .form_box > div {
@@ -18,7 +19,7 @@
     margin-left: 10px;
     padding: 0 5px 0 5px;
     font-size: 20px;
-    border-bottom: 1px solid #161616;
+    border-bottom: 1px solid #fff;
     color: #161616;
 }
 .form box select {
@@ -27,7 +28,7 @@
 
 .form_box > div > label:nth-child(1) {
     font-size: 18px;
-    color: #000;
+    color: #fff;
     font-weight: 400;
 }
 .form_box > div > label:nth-child(2) {
