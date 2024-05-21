@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { deposits } from "../data/deposits_list.js"
 import { users } from "../data/users_list.js";
-
+import "../styles/deposits.css"
 
 function Deposit(props) {
     return (

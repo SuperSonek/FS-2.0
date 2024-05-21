@@ -1,6 +1,7 @@
 import '../App.css';
 import { useState } from "react"
 import { signals } from "../data/signals_list.js"
+import '../styles/signals.css';
 
 
 const AddNewSignal = () => {
@@ -38,11 +39,6 @@ const Signal = (props) => {
         </div>
     )
 }
-
-function handleUserTypeChange() {
-    
-}
-
 
 export default function Signals() {
     const [userType, setUserType] = useState("admin")
