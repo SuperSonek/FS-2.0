@@ -261,21 +261,21 @@ export default function Screenshots() {
         console.log(event.target.value);
     }
     
-    function handleSsTypeChange(event) {
-        setSsType(event.target.value);
-    }
-
     return (
         <>
         <h1>Fake Screenshots</h1>
             <div className="page_content screenshots_page">
                 <div className="screenshots_type_select">
                     <span>Screen type:</span>
-                    <select onChange={handleSsTypeChange}>
-                        <option value="position">Position</option>
-                        <option value="pnlroi">PnL/ROI</option>
-                        <option value="balance">Balance</option>
-                    </select>
+                    <button 
+                        onClick={() => setSsType('position')}
+                    >Position</button>
+                    <button
+                        onClick={() => setSsType('roipnl')}
+                    >PnL/ROI</button>
+                    <button
+                        onClick={() => setSsType('balance')}
+                    >Balance</button>
                 </div>
 
                     {ssType == "position" &&

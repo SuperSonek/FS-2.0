@@ -20,7 +20,7 @@
     padding: 0 5px 0 5px;
     font-size: 20px;
     border-bottom: 1px solid #fff;
-    color: #161616;
+    color: #fff;
 }
 .form box select {
     font-size: 20px;
@@ -32,5 +32,5 @@
     font-weight: 400;
 }
 .form_box > div > label:nth-child(2) {
-    color: #000;
+    color: #fff;
 }

@@ -30,6 +30,10 @@
 .users_list_table {
     margin-top: 20px;
     width: 100%;
+    border: 1px solid gray;
+}
+.users_list_table th {
+    border: 1px solid gray;
 }
 
 
